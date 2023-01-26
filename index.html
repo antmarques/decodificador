@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <div class="container">
+        <div class="aluraIcon">
+            <img src="https://cursos.alura.com.br/assets/images/logos/logo-alura.svg" alt="alura">
+        </div>
+        <div class="textCamp">
+            <textarea class="field" name="texto" rows="2" cols="120">
+Digite um texto
+            </textarea>
+        </div>
+        <div class="buttons">
+            <button class="btn-1">Criptografar</button>
+            <button class="btn-2">Descriptografar</button>
+        </div>
+    </div>
+    
+    <script>
+
+        function pulaLinha(){
+            document.write("<br>");
+        }
+
+        function mostra(frase){ 
+            document.write(frase);
+            pulaLinha();
+        }
+
+        function ocultar(x){
+
+        }
+
+        document.getElementById("");
+        var texto = document.querySelector('textCamp');
+        var btn1 = document.querySelector('.btn-1');
+        var btn2 = document.querySelector('.btn-2');
+
+        if (texto == "null"){
+            mostra(" ");
+        }else{
+            mostra(texto);
+        }
+    </script>
+</body>
+</html>
